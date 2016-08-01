@@ -1,0 +1,48 @@
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: #00B7FF;
+}
+
+.wrap {
+    position: absolute;
+    top: 130px;
+    left: 0;
+    width: 809px;
+    height: 400px;
+    background-color: #FFF;
+    border-top: 1px solid #AAA;
+    border-bottom: 1px solid #AAA;
+}
+
+#map_content {
+    /*display: none;*/
+    position: absolute;
+    background: #F5F5F5;
+    width: 100%;
+    height: 100%;
+}
+
+#info {
+    position: relative;
+    float: right;
+    left: 300px;
+    width: 300px;
+    height: 100%;
+    background: #f4c7f5;
+    overflow: scroll;
+}
+
+#result {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: lightblue;
+    height: 150px;
+    width: 250px;
+    border: 1px solid red;
+
+}

@@ -1,0 +1,194 @@
+.reg:hover {
+    fill: blueviolet;
+}
+
+.color_1 { /* color */
+  fill: #4cbd8d;
+}
+.color_1:hover {
+  fill: blueviolet;
+}
+
+.color_2 { /* color */
+    fill: #d8d723;
+    stroke: black;
+}
+.color_2:hover {
+    fill: blueviolet;
+}
+
+.color_3 { /* color */
+    fill: #6365ae;
+}
+.color_3:hover {
+    fill: blueviolet;
+}
+
+.color_4 { /* color */
+    fill: #69aad9;
+}
+.color_4:hover {
+    fill: blueviolet;
+}
+
+.color_5 { /* color */
+    fill: #cc8ec1;
+}
+.color_5:hover {
+    fill: blueviolet;
+}
+
+.color_6 { /* color */
+    fill: #b0a000;
+}
+.color_6:hover {
+    fill: blueviolet;
+}
+
+.color_7 { /* color */
+    fill: #dd3755;
+}
+.color_7:hover {
+    fill: blueviolet;
+}
+
+.color_8 { /* color */
+    fill: #8b4907;
+}
+.color_8:hover {
+    fill: blueviolet;
+}
+
+.color_9 { /* color */
+    fill: #3778a4;
+}
+.color_9:hover {
+    fill: blueviolet;
+}
+
+.color_10 { /* color */
+    fill: #f1977c;
+}
+.color_10:hover {
+    fill: blueviolet;
+}
+
+.color_11 { /* color */
+    fill: #5d5d5a;
+}
+.color_11:hover {
+    fill: blueviolet;
+}
+
+.color_12 { /* color */
+    fill: #ce4e6c;
+}
+.color_12:hover {
+    fill: blueviolet;
+}
+
+.color_13 { /* color */
+    fill: #f279cf;
+}
+.color_13:hover {
+    fill: blueviolet;
+}
+
+.color_14 { /* color */
+    fill: #37739f;
+}
+.color_14:hover {
+    fill: blueviolet;
+}
+
+.color_15 { /* color */
+    fill: #934787;
+}
+.color_15:hover {
+    fill: blueviolet;
+}
+
+.color_16 { /* color */
+    fill: #b5b5b5;
+}
+.color_16:hover {
+    fill: blueviolet;
+}
+
+.color_17 { /* color */
+    fill: #852639;
+}
+.color_17:hover {
+    fill: blueviolet;
+}
+
+.color_18 { /* color */
+    fill: #77e247;
+}
+.color_18:hover {
+    fill: blueviolet;
+}
+
+.color_19 { /* color */
+    fill: #51bfb1;
+}
+.color_19:hover {
+    fill: blueviolet;
+}
+
+.color_20 { /* color */
+    fill: #df5638;
+}
+.color_20:hover {
+    fill: blueviolet;
+}
+
+.color_0 { /* color */
+    fill: white;
+}
+.color_0:hover {
+    fill: blueviolet;
+}
+
+
+.color_21 {
+    fill: red;
+    stroke: black;
+}
+.color_21:hover {
+    fill: #108b19;
+}
+.color_22 {
+    fill: orange;
+    stroke: black;
+}
+.color_22:hover {
+    fill: darkorange;
+}
+
+
+
+.ppin:hover {
+    fill: white;
+}
+
+.upin:hover {
+    fill: blue;
+}
+
+.mark:hover {
+    /*opacity: 0.5;*/
+}
+
+.pol-map-wrap {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* Examples */
+.green_mark {
+    stroke: white;
+    fill: red;
+}

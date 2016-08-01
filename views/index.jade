@@ -1,0 +1,94 @@
+extends layout
+
+block content
+  h1= title
+  div#map_content
+  div#info Примеры вызовов (см. javascripts/main.js)
+      hr
+      ul
+          li Окрашивание регионов:
+            br
+            code map.getReg(76).setColor(1);
+            br
+            code map.getReg(42).setColor(1);
+            br
+            code map.getReg(4).setColor(2);
+            br
+            code map.getReg(8).setColor(3);
+            br
+            code map.getReg(25).setColor(5);
+            br
+            code map.getReg(77).setColor(8);
+            br
+            code map.getReg(82).setColor(12);
+            hr
+
+          li Установка непарного пина:
+            br
+            code map.getReg(76).showUPin();
+            br
+            b or
+            br
+            code map.showUPin(10);
+            hr
+
+          li Установка парного пина:
+              br
+              code map.showPPin(88, 74);
+              hr
+
+          li Установка метки:
+              br
+              code map.showMark(57, 'red_mark');
+              br
+              code map.showMark(75, 'green_mark');
+              hr
+
+          li Удаление (можно попробовать в консоли):
+              br
+              a(href="#" onclick="map.hidePPin(88, 74);")
+                code map.hidePPin(88, 74);
+              br
+              b (обратите внимание, порядок регионов может быть любым)
+              br
+              br
+              a(href="#" onclick="map.hideMark(57);")
+                code map.hideMark(57);
+              hr
+
+          li
+              button(onclick='map.focus(74)') map.focus(74);
+          li
+              button(onclick='map.focus(15, 1000, 0.8)') map.focus(15, 1000, 0.8);
+              b Анимированный + коэффициент приближения (1 — на все поле зрения)
+          li
+              button(onclick='map.focus()') map.focus(); или map.focus(0);
+          li
+              button(onclick='map.focus(0, 1000)') map.focus(0, 1000);
+              b Анимированный!
+              hr
+
+          li Миникарта:
+              span(style='font-size:8px;')
+                  br
+                  code map.minimap({
+                  br
+                  code &nbsp;&nbsp;container: document.getElementById('result'),
+                  br
+                  code &nbsp;&nbsp;mainRegNum: 51,
+                  br
+                  code &nbsp;&nbsp;otherRegsNums: [50, 47, 53, 52, 39, 2903, 28971],
+                  br
+                  code &nbsp;&nbsp;callback: function() {console.log('Success!')}
+                  br
+                  code });
+                  br
+                  button(onclick="map.minimap({container: document.getElementById('result'), mainRegNum: 51, otherRegsNums: [50, 47, 53, 52, 39, 2903, 28971], callback: function() {console.log('Success!')}});") Try it!
+              hr
+
+          li Режим определения центров:
+              br
+              code map.centrate()
+              br
+              hr
+  div#result Здесь будет генерироваться статическая карта
